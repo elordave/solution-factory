@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Espace Commentaires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="commentSection">
+            <!-- Commentaires seront affichés ici -->
+        </div>
+
+        <h2>Ajouter un commentaire :</h2>
+        <form id="commentForm">
+            <label for="name">Nom :</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="comment">Commentaire :</label><br>
+            <textarea id="comment" name="comment" rows="4" required></textarea><br>
+
+            <button type="submit">Envoyer</button>
+        </form>
+
+        <a href="page.html" id="back-btn"><i class="fas fa-home"></i> Retour</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
